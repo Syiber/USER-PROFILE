@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: rgb(14, 148, 144);
+  background: linear-gradient(90deg, rgb(14, 148, 144) 0%, rgb(75, 203, 193) 27%, rgb(52, 217, 217) 73%, rgb(8, 131, 126) 100%);
+}
+
+.container {
+  width: 100%;
+}
+.container h1 {
+  display: block;
+  font-size: 2.4rem;
+  color: #2d3aad;
+  margin: 2.5rem auto 1rem;
+  text-align: center;
+}
+.container p {
+  margin-top: -0.25rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.container .profile {
+  width: 22rem;
+  height: 22rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  margin: 0 2rem 1rem 3.5rem;
+  padding: 1.4rem;
+}
+.container .profile .image {
+  width: 9.2rem;
+  border: 5px solid #919191;
+  border-radius: 50%;
+  margin: auto;
+}
+.container .profile .image img {
+  width: 9rem;
+}
+.container .profile h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  text-align: center;
+}
+.container .profile hr {
+  margin: 0.5rem 0 0.5rem 0;
+}
+.container .profile ul {
+  list-style: none;
+  font-weight: 600;
+}
+.container .profile ul li {
+  padding: 0.2rem;
+}
+.container .profile ul span {
+  font-weight: 100;
+}
+.container .info {
+  width: 55rem;
+  height: 16rem;
+  float: right;
+  background-color: #ffffff;
+  margin-top: -23rem;
+  margin-right: 2rem;
+  border-radius: 0.5rem;
+  font-weight: 400;
+}
+.container .info h3 {
+  padding: 0.6rem 0 0.4rem 0.9rem;
+}
+.container .info table {
+  border: 1px solid #888888;
+  width: 96%;
+  margin: auto;
+  font-weight: 600;
+}
+.container .info table td {
+  border: 1px solid #888888;
+  padding: 0.4rem 0 0.4rem 0.2rem;
+}
+.container .info table #ir {
+  font-weight: 100;
+}
+.container .other {
+  width: 55rem;
+  height: 10rem;
+  background-color: #ffffff;
+  float: right;
+  margin-top: -5rem;
+  margin-right: 2rem;
+  border-radius: 0.5rem;
+}
+.container .other h3 {
+  padding: 0.6rem 0 0.4rem 0.9rem;
+  font-weight: 600;
+}
+.container .other p {
+  text-align: left;
+  padding: 0.6rem 0 0.4rem 0.9rem;
+}/*# sourceMappingURL=styles.css.map */
